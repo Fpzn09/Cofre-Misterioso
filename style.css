@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: #000000;
+    color: white;
+    padding: 30px;
+
+}
+
+.arena{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    height: 100px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #ffffff49;
+    border-radius: 15px;
+}
+
+button{
+    margin: 0;
+    padding: 15px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+h2 h3{
+    text-align: start;
+}
+
+#resultados{
+    font-size: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+#subtitle{
+    text-align: center;
+}
+
+#jogarDenovo{
+    color: white;
+    background-color: #d30d0d;
+
+}
+
+#mensagem{
+    margin-top: 50px;
+    color: white;
+}
+
+#mensagemBau{
+       margin-top: 50px;
+    color: white
+}
+
+#cofre1{
+    background-color: yellow;
+}
+
+#cofre2{
+    background-color: red;
+}
+
+#cofre3{
+    background-color: blue;
+}
